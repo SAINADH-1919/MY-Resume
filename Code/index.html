@@ -5,60 +5,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Your CSS styles here */
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #bb {
+            background-color:  #243c54;
+            border: 3px solid white;
+            border-radius: 20px;
+            box-shadow: 2px 2px 6px 2px black;
+            box-sizing: border-box;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        #b1 {
+            background-color:rgb(252, 250, 250);
+            padding: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        #b12 {
+            float: none;
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+        #h1a {
+            font-size: 40px;
+            color:  #243c54;
+            margin: 0;
+        }
+        #p1 {
+            margin: 20px 0;
+            color:  #243c54;
+        }
+        #b3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        #b31, #b32, #b33 {
+            flex: 0 0 calc(33.33% - 20px);
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        #b32, #b33 {
+            background-color: #243c54;
+            color: white;
+        }
+        #b321 {
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: 768px) {
+            #b3 {
+                flex-direction: column;
+            }
+            #b31, #b32, #b33 {
+                flex: 0 0 100%;
+                margin-right: 0;
+            }
+        }
+    </style>
 </head>
-<style>
-    /* Base styles */
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
-    }
-
-    #bb {
-        background-color: #243c54;
-        border: 3px solid white;
-        border-radius: 20px;
-        box-shadow: 2px 2px 6px 2px black;
-        margin: 20px;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    /* Media queries for responsiveness */
-
-    /* For screens smaller than 768px */
-    @media screen and (max-width: 768px) {
-        #bb {
-            margin: 10px;
-        }
-    }
-
-    /* For screens between 768px and 1024px */
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-        #bb {
-            margin: 15px;
-            padding: 15px;
-        }
-    }
-
-    /* For screens larger than 1024px */
-    @media screen and (min-width: 1024px) {
-        #bb {
-            margin: 30px;
-            padding: 30px;
-        }
-    }
-
-    /* Remaining styles */
-
-    /* Add your remaining styles here */
-
-</style>
 <body>
     <div id="bb">
-        <!-- Your existing HTML content goes here -->
+        <div id="b1">
+            <div id="b12">
+                <h1 id="h1a">AGRAHARAM SAINADH</h1>
+                <p id="p1">Fresh graduate with a keen interest in Full Stack Developer. Looking for a challenging role in a reputed company to utilize my engineering skills that can contribute to the company's growth as well as enhance my knowledge by exploring new things.</p>
+            </div>
+        </div>
+        <div id="b3">
+            <div id="b31">
+                <h2>INTERNSHIP</h2>
+                <hr>
+                <p>JUN 2023-DEC 2023</p>
+                <h3>GLOBAL QUEST TECHNOLOGIES</h3>
+                <p>The Full Stack Development Internship at Global Quest provides practical training by industry experts. Learn both front-end and back-end skills for a comprehensive understanding of web development. Elevate your capabilities with real-world projects and guidance from experienced professionals</p>
+                
+                <p>JUN 2022-SEP 2022</p>
+                <h3>SMARTINTERNZ</h3>
+                <p>Salesforce Virtual Internship</p>
+                <p>It is an Internship by SMARTINTERNZ through their career platform SmartInternz of 8 weeks where Java programming is used.</p>
+                <p>This internship program provides an opportunity to learn about basic Salesforce concepts.</p>
+                
+                <p>JUN 2022-SEP 2022</p>
+                <h3>Exposys Data Labs</h3>
+                <p>Virtual Web Developer</p>
+                <p>The Exposys Data Labs Virtual Web Developer internship offers a 2-month program focused on web technologies. Gain hands-on experience by working on a website development project. Learn and apply essential skills in a practical environment to enhance your proficiency in web development.</p>
+            </div>
+            <div id="b32">
+                <h2>CONTACT</h2>
+                <hr>
+                <div id="b321">
+                    <h4><i class="fa fa-phone" aria-hidden="true"></i> Phone</h4>
+                    <p>+919063004636</p>
+                </div>
+                <div id="b321">
+                    <h4><i class="fa fa-envelope" aria-hidden="true"></i> Email</h4>
+                    <p>sainadh841419@gmail.com</p>
+                </div>
+                <div id="b321">
+                    <h4><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</h4>
+                    <a href="https://www.linkedin.com/in/agraharam-sainadh-228612243" target="_blank">Agraharam Sainadh</a>
+                </div>
+            </div>
+            <div id="b33">
+                <h2>EDUCATION</h2>
+                <hr>
+                <p>2023</p>
+                <h3>B.Tech in Computer Science</h3>
+                <p>JNTUA College Of Engineering Kalikiri</p>
+                
+                <p>2020</p>
+                <h3>Diploma in Computer Science</h3>
+                <p>Sri Venkateshwara Government Polytechnic</p>
+                
+                <h2>TECHNICAL SKILLS</h2>
+                <hr>
+                <ul>
+                    <li>Core Java</li>
+                    <li>Manual Testing</li>
+                    <li>HTML5, CSS3, Bootstrap, JavaScript</li>
+                    <li>MySQL</li>
+                </ul>
+                
+                <h2>STRENGTHS</h2>
+                <hr>
+                <ul>
+                    <li>Quick Learner</li>
+                    <li>Self Motivated</li>
+                </ul>
+                
+                <h2>LANGUAGES</h2>
+                <hr>
+                <ul>
+                    <li>English</li>
+                    <li>Telugu</li>
+                    <li>Tamil</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
