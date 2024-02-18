@@ -9,15 +9,20 @@
 <style>
     /* Base styles */
 
-    #bb{
-        background-color:  #243c54;
-        height: 1665px;
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    #bb {
+        background-color: #243c54;
         border: 3px solid white;
-        background-clip: content-box;
-        margin-right: 100px;
-        margin-left: 100px;        
         border-radius: 20px;
         box-shadow: 2px 2px 6px 2px black;
+        margin: 20px;
+        padding: 20px;
         box-sizing: border-box;
     }
 
@@ -25,85 +30,35 @@
 
     /* For screens smaller than 768px */
     @media screen and (max-width: 768px) {
-        #b12, #b31, #b32, #b33 {
-            width: 100%;
-            margin: 0;
-            border-radius: 0;
+        #bb {
+            margin: 10px;
         }
     }
 
     /* For screens between 768px and 1024px */
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         #bb {
-            margin: 0;
-        }
-        #b12, #b31, #b32, #b33 {
-            width: 100%;
+            margin: 15px;
+            padding: 15px;
         }
     }
 
     /* For screens larger than 1024px */
     @media screen and (min-width: 1024px) {
-        #b1, #b3 {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        #b12, #b31, #b32, #b33 {
-            width: calc(50% - 20px);
-            margin: 10px;
+        #bb {
+            margin: 30px;
+            padding: 30px;
         }
     }
 
     /* Remaining styles */
 
-    #b1 { 
-        background-color:rgb(252, 250, 250)  ;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        height: 180px;
-        background-clip: border-box;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    #b12 {
-        float: right;
-        height: 200px;
-        width: 67%;
-        border-bottom: 2px solid #243c54;
-        border-top-left-radius: 10px ;
-        padding-left: 23px;
-        padding-right: 30px;
-        color:  #243c54;
-    }
-
     /* Add your remaining styles here */
 
 </style>
-<body style="background-color: white">
-    
+<body>
     <div id="bb">
-        <div id="b1">
-            <div id="b12">
-                <h1 id="h1a">AGRAHARAM SAINADH</h1>
-                <p id="p1"><big>"Fresh graduate with a keen interest in Full Stack Developer.Looking for a challenging role in a reputed company to utilize my engineering skills that can contribute to the company's growth as well as enhance my knowledge by exploring new things."</big></p>
-            </div>
-        </div>
-        
-        <div id="b3">
-            <div id="b31">
-                <!-- Content -->
-            </div>
-            <div id="b32">
-                <!-- Content -->
-            </div>
-            <div id="b33">
-                <!-- Content -->
-            </div>
-        </div>
+        <!-- Your existing HTML content goes here -->
     </div>
-    
 </body>
 </html>
